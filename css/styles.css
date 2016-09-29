@@ -1,0 +1,184 @@
+/*************************************************************************
+   Personal profile website - advertises experiences and skills.
+   Copyright (C) 2016  Victor E. Del Castillo
+   You may find the full notice in the ../NOTICE file.
+ *************************************************************************/
+
+
+
+/*************************************************************************
+   Small Devices' Styles
+ *************************************************************************/
+
+
+   /**********************************************************************
+     Global Rules
+   ***********************************************************************/
+
+
+body {
+  background-color : #f9f9f9;
+  font             : 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color            : #999;
+  text-align       : center;
+}
+
+h1 {
+  font-size : 2em;
+  color     : #000;
+} 
+
+h2 {
+  font-size   : 1.3em;
+  font-weight : normal;
+  color       : #000;
+}
+
+h3 {
+  font-size      : 1em;
+  color          : #000;
+  text-transform : uppercase;
+}
+
+a {
+  color           : #000;
+  font-weight     : bold;
+  text-transform  : uppercase;
+  text-decoration : none;
+}
+
+.container {
+  max-width : 320px;
+  margin    : 0 auto;
+}
+
+.container p {
+  padding : .5em .5em;
+} /** End of Global Rules **/
+
+
+  /**********************************************************************
+    Header Section
+  ***********************************************************************/
+
+
+.nav-menu {
+  margin-bottom : 3em;
+  padding       : 0 1em;  
+}
+
+.nav-menu ul {
+  margin       : 0;
+  padding-left : 0;
+}
+
+.nav-menu li {
+  background-color : #fff;
+  padding          : .5em 0;
+  margin-bottom    : .4em;
+  display          : block;
+  list-style       : none;
+}
+
+.home-button {
+  padding : 0 7.4em;
+}
+
+.portfolio-button {
+  padding : 0 6.1em;
+}
+
+.contact-button {
+  padding : 0 6.5em;
+}
+
+.profile-picture {
+  width : 200px;
+} /** End of Header Section **/
+
+
+  /**********************************************************************
+    Profile Section
+  ***********************************************************************/
+
+
+.content {
+  background-color : #fff;
+  margin           : 0;
+  padding          : 2em 0;
+}
+
+.content img {
+  padding-top : 1em;
+  max-height  : 10em;
+  width       : 280px;
+} /** End of Profile Section **/
+
+
+  /**********************************************************************
+    Contact Section
+  ***********************************************************************/
+
+
+.contact-footer {
+  padding : 1.5em 1.5em;
+}
+
+.contact-footer p {
+  padding-top    : 1em;
+  padding-bottom : 1em;
+}
+
+.contact-info {
+  padding-bottom : 1em;
+  display        : block;
+}
+
+.contact-info a {
+  color          : #999;
+  font-weight    : bold;
+  padding-left   : .5em;
+  text-transform : none;
+} /** End of Contact Section **/
+
+
+  /**********************************************************************
+    Footer Section
+  ***********************************************************************/
+
+
+.nav-footer {
+  position       : relative;
+  margin         : 1em 1em;
+  border-top     : 1px solid #e1e1e1;
+  font-size      : .8em;
+  padding-bottom : 3rem;
+
+}
+
+.nav-label {
+  position    : absolute;
+  top         : 1.5em;
+  left        : 0.5em;
+  font-weight : bold;
+  color       : #000;
+}
+
+.nav-link {
+  position  : absolute;
+  top       : 1.5em;
+  right     : 0.5em;
+} /** End of Footer Section **/
+
+
+/*************************************************************************
+  Medium Devices' Styles
+ *************************************************************************/
+ 
+
+
+/*************************************************************************
+  Large Devices' Styles
+*************************************************************************/ 
+
+
