@@ -1,1 +1,2 @@
-# project-02
+# Personal Profile Webpage
+Webpage to advertise experiences and skills.
