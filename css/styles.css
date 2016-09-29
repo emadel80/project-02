@@ -98,7 +98,7 @@ a {
 
 
   /**********************************************************************
-    Profile Section
+    Portfolio Section
   ***********************************************************************/
 
 
@@ -106,6 +106,7 @@ a {
   background-color : #fff;
   margin           : 0;
   padding          : 2em 0;
+  border-radius    : 22px;
 }
 
 .content img {
@@ -168,17 +169,172 @@ a {
   position  : absolute;
   top       : 1.5em;
   right     : 0.5em;
+} 
+
+.toggle-link {
+  display: inline;
+} 
+
+.toggle-menu {
+  display: none;
 } /** End of Footer Section **/
 
 
 /*************************************************************************
   Medium Devices' Styles
  *************************************************************************/
- 
+
+
+@media (min-width: 768px) {
+
+
+  /***********************************************************************
+    Global Rules
+   ***********************************************************************/
+
+
+  .container {
+    max-width : 768px;
+  } 
+
+  .nav-menu li {
+    background-color : transparent;
+    display          : inline-block; 
+  } /** End of Global Rules **/
+
+  .reset:after {
+    content : "";
+    display : table;
+    clear   : both;
+  }
+
+
+  /***********************************************************************
+    Header Section
+   ***********************************************************************/
+
+
+    header.container {
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+
+    header.container p {
+      padding-top: 0;
+      text-align: left;
+    }
+
+    .home-button,
+    .portfolio-button,
+    .contact-button {
+      padding : 0 1em;
+   } 
+
+    .profile-picture {
+      float: right;
+      padding-left: 1em;
+      padding-bottom: 4em;
+      min-width: 35%;
+    }
+
+   /** End of Header Section **/
+
+
+  /***********************************************************************
+    Portfolio Section
+   ***********************************************************************/
+
+
+    .col img {
+      min-width: 100%;
+    }
+
+    .first-col {
+      padding-left: 2em;
+      padding-right: .5em;
+      max-width: 45%;
+      float: left;
+    }
+
+    .second-col {
+      padding-right: 2em;
+      padding-left: .5em;
+      max-width: 44%;
+      float: right;
+    }
+
+
+  /***********************************************************************
+    Contact Section
+   ***********************************************************************/
+    
+
+    .contact-footer {
+      padding-left  : 5em;
+      padding-right : 5em;
+    } /** End of Contact Section **/
+
+    
+  /***********************************************************************
+    Footer Section
+   ***********************************************************************/
+
+
+  .toggle-link {
+    display : none;
+  }
+
+  .nav-footer .nav-menu {
+    position : absolute;
+    top      : 1.5em;
+    right    : 0.5em;
+    padding  : 0;
+  }
+
+  .nav-footer .nav-menu li {
+    padding-left : 1em;
+    padding-right: .5em;
+  }
+
+  .nav-footer .nav-menu a {
+    font-size: 1.2em;
+  }
+
+  .toggle-menu {
+    display : inline;
+  } 
+
+   .nav-label {
+     font-size: 1.2em;
+     padding-left: .5em;
+   } /** End of Footer Section **/
+
+} /** End of Medium Devices' Styles **/
 
 
 /*************************************************************************
   Large Devices' Styles
 *************************************************************************/ 
 
+
+  @media (min-width: 1024px) {
+
+    .container {
+      max-width : 1024px;
+    } 
+
+    .first-col {
+      padding-left: 2em;
+      padding-right: .5em;
+      max-width: 25%;
+      float: left;
+    }
+
+    .second-col {
+      padding-right: 2em;
+      padding-left: .5em;
+      max-width: 24%;
+      float: right;
+    }
+}
 
